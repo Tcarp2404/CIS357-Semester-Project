@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/inputThought"
+        android:hint="Enter your thought"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <Spinner
+        android:id="@+id/emotionSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:text="Save Thought"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:text="Back to Home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
