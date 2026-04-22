@@ -1,10 +1,12 @@
 - Overview
+
  This tutorial demonstrates how to implement on-device storage in Adroid using a app called MindLift. The app allows users to store thoughts categorized by emotions with the optional addition of taking a picture that can be attached to the thougt. The data is persistent and remains on the app locally so its avaible through different sessions. 
  
  The primary focus of this tutorial will be on local data persistance or on-device storage. More specifically some things that will be talked about inlcude saving structured data using JSON files, storing images inteernally, and making sure the data loads when the app starts up. Unlike cloud based functions like Firebase this approach keeps all of the data offline and stored locally on the device while staying private and secure.
 
 
 - Getting Started
+
  To follow this tutorial you will need:
  Android Studio (latest version recommended)
  Kotlin support enabled
@@ -16,6 +18,7 @@
 
 
 - Step by Step Implementation
+
  Step 1. Begin by defining a "Thought" data class
  
  data class Thought(
@@ -93,6 +96,7 @@
  Source Code: https://github.com/Tcarp2404/CIS357-Semester-Project
 
 - See Also
+
  android internal storage docs: https://developer.android.com/training/data-storage
  
  Gson documentation: https://google.github.io/gson/UserGuide.html
