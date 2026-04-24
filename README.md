@@ -95,6 +95,8 @@
  
  Source Code: https://github.com/Tcarp2404/CIS357-Semester-Project
 
+ Google Slide Presentation: https://docs.google.com/presentation/d/1NU12asbQYYvjKdaLKn1uwivDC3nxabKKC-BMZCFPiOU/edit?usp=sharing
+
 - See Also
 
  android internal storage docs: https://developer.android.com/training/data-storage
