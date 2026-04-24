@@ -13,6 +13,15 @@
  Android SDK (API 24+ recommended)
  
  Dependencies: Add the following to your build.gradle (Module: app) implementation "com.google.code.gson:gson:2.10.1" - This library is used to convert kotlin objects to JSON and back.
+  Other Various dependencies:
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("androidx.navigation:navigation-compose:2.7.7")
+    implementation("androidx.compose.material:material-icons-extended:1.6.0")
+    implementation("androidx.camera:camera-core:1.3.1")
+    implementation("androidx.camera:camera-camera2:1.3.1")
+    implementation("androidx.camera:camera-lifecycle:1.3.1")
+    implementation("androidx.camera:camera-view:1.3.1")
+    implementation("com.google.code.gson:gson:2.10.1")
  
  Device Requirements: Android Emulator or physical android device, camera permission enabled (for image capturing)
 
@@ -101,7 +110,7 @@
 
 - See Also
 
- android internal storage docs: https://developer.android.com/training/data-storage
+ Android internal storage docs: https://developer.android.com/training/data-storage
  
  Gson documentation: https://google.github.io/gson/UserGuide.html
  
