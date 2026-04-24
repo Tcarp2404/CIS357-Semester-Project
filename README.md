@@ -97,6 +97,8 @@
 
  Google Slide Presentation: https://docs.google.com/presentation/d/1NU12asbQYYvjKdaLKn1uwivDC3nxabKKC-BMZCFPiOU/edit?usp=sharing
 
+ GitHub Page: https://tcarp2404.github.io/CIS357-Semester-Project/
+
 - See Also
 
  android internal storage docs: https://developer.android.com/training/data-storage
